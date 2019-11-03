@@ -16,7 +16,7 @@ router.get( '/comments/:id', ( req, res ) => {
 })
 
 router.post( '/comments', ( req, res ) => {
-	// create() receives the reqested input and adds it to the comments in the data
+	// create() receives the reqested input and adds it to the comments in the data testing
 	res.json( create( req.body ) )
 })
 
